@@ -44,6 +44,10 @@ This is a string with some data, including big data and also <nothing>.
 - We will specify the language/runtime to write the code in.
 - You should include tests, written in whatever testing frameworks/libraries you prefer.
 
+## Time limit
+
+Please spend no more than 90 minutes on this challenge.
+
 ## Skills tested
 
 - Language understanding
