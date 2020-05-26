@@ -16,7 +16,7 @@ We'll ask you what kind of challenge we'd like you to complete (you'll find the 
 - Don't exceed the indicated time for the challenge (this is very important). Each challenge has its own time allowance, this is never more than 3 hours.
 - If you don't have time to complete it, that's perfectly OK. It's important that the work you do provide is high quality (production ready).
 - You can use boilerplate code to kick off the project, but make sure you explain this in the README.
-- Create your own repository for this project and commit very frequently, so we can see how your work progresses over time.
+- Create your own repository for this project and **commit very frequently**, so we can see how your work progresses over time. We may use this history to discuss your approach to the task.
 - When you're done, share a link to your repository with us.
 
 ## The README
