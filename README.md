@@ -6,10 +6,10 @@ We'll ask you what kind of challenge we'd like you to complete (you'll find the 
 
 ## The challenges
 
-- [Birthdays](birthdays.md)
-- [Phone Book](phone-book.md)
-- [String Parser](string-parser.md)
-- [Design Tasks](design-tasks.md)
+- [Birthdays](birthdays.md) - client side development
+- [Phone Book](phone-book.md) - API development
+- [String Parser](string-parser.md) - problem solving & logic
+- [Design Tasks](design-tasks.md) - product design
 
 ## Approaching the challenge
 
