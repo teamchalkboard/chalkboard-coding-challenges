@@ -12,7 +12,7 @@ We'll ask you what kind of challenge we'd like you to complete (you'll find the 
 
 ## Approaching the challenge
 
-- Only take **3 hours** at most to complete your challenge (this is very important).
+- Only take **around 3 hours** at most to complete your challenge (this is very important).
 - If you don't have time to complete it, that's perfectly OK. It's important that the work you do provide is high quality (production ready).
 - You can use boilerplate code to kick off the project, but make sure you explain this in the README.
 - Create your own repository for this project and commit very frequently, so we can see how your work progresses over time.
