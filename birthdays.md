@@ -18,7 +18,7 @@ Important: Make sure you also view our [coding challenge guidelines](README.md).
 
 - The UI should be a web client or mobile app. The person setting the challenge will specify the expected language/runtime.
 - We will provide an API for you to build against, see below.
-- It's fine to bring in a UI components library or to use native components. We are looking for good usability, hierarchy, focus, and layout, but not a polished design.
+- It's fine to bring in a UI components library or to use native components. We are looking for good usability, visual hierarchy, focus, and layout, but not a polished design.
 - There should be tests for the client, use whatever testing frameworks/libraries you prefer.
 - You don't need to provide thorough test coverage, but cover the basics and show what your approach would be.
 
