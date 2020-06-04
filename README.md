@@ -2,7 +2,7 @@
 
 These are coding challenges that you can either do for fun, or more likely, we'll ask you to work on as part of our recruitment process.
 
-We'll tell you which of the challenges we'd like you to complete (you'll find the challenge(s) within this repo). Make sure you follow the guidelines below for how to approach the challenge and what to include.
+We'll always indicate which of the challenges we'd like you to complete (you'll find the challenge(s) within this repo). Make sure you follow the guidelines below for how to approach the challenge and what to include.
 
 ## The challenges
 
