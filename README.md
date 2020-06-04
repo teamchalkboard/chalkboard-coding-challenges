@@ -2,14 +2,13 @@
 
 These are coding challenges that you can either do for fun, or more likely, we'll ask you to work on as part of our recruitment process.
 
-We'll ask you what kind of challenge we'd like you to complete (you'll find the challenge(s) within this repo). Make sure you follow the guidelines below for how to approach the challenge and what to include.
+We'll tell you which of the challenges we'd like you to complete (you'll find the challenge(s) within this repo). Make sure you follow the guidelines below for how to approach the challenge and what to include.
 
 ## The challenges
 
 - [Birthdays](birthdays.md) - client side development
 - [Phone Book](phone-book.md) - API development
 - [String Parser](string-parser.md) - problem solving & logic
-- [Design Tasks](design-tasks.md) - product design
 
 ## Approaching the challenge
 
