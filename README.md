@@ -1,4 +1,4 @@
-# Chalkboard recruitment challenges
+# Chalkboard coding challenges
 
 These are coding challenges that you can either do for fun, or more likely, we'll ask you to work on as part of our recruitment process.
 
