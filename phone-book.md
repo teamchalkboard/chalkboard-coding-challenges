@@ -27,4 +27,3 @@ Please spend no more than 3 hours on this challenge.
 - Server side development practices
 - Designing an API
 - Testing
-- HTML/CSS
