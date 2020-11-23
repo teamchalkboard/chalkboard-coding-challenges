@@ -34,19 +34,24 @@ The data on this API is reset daily.
 
 You can use the following queries and mutations:
 
+#### List
+
 ```graphql
 query {
   person {
+    id
     name
     date_of_birth
   }
 }
 ```
+
+#### Add person
 
 ```graphql
 mutation {
   insert_person_one(
-    object: { date_of_birth: "2020-03-31", name: "Rhodri George" }
+    object: { date_of_birth: "1925-03-31", name: "Peter Paul" }
   ) {
     name
     date_of_birth
@@ -54,11 +59,11 @@ mutation {
 }
 ```
 
+#### Delete person
+
 ```graphql
 mutation {
-  delete_person(
-    where: { id: { _eq: "a70c3599-40a0-4bca-a1c7-08061c899413" } }
-  ) {
+  delete_person(where: { id: { _eq: "< user uuid >" } }) {
     affected_rows
   }
 }
