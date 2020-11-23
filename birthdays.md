@@ -46,7 +46,7 @@ query {
 }
 ```
 
-#### Add person
+#### Add person
 
 ```graphql
 mutation {
