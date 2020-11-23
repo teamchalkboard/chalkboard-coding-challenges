@@ -1,6 +1,6 @@
 # Birthdays app challenge
 
-The aim is to create a small web app that allows you to keep track of birthdays.
+The aim is to create a small app that allows you to keep track of birthdays.
 
 When you open the app, you'll be able to see whose birthdays are today, or coming up in the next 2 weeks. It will also tell you how old they are (or will be).
 
@@ -37,4 +37,3 @@ Please spend no more than 3 hours on this challenge.
 - Client side development practices
 - Designing a simple UI
 - Testing
-- HTML/CSS
