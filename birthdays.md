@@ -24,9 +24,60 @@ Important: Make sure you also view our [coding challenge guidelines](README.md).
 
 ## API
 
-You'll be provided a working API to use as a backend for the app. This allows for birthdays to be listed, created, and deleted.
+You can choose to use either of the following APIs for this challenge.
+
+### GraphQL
+
+https://birthday-api.hasura.app/v1/graphql can be used a working GraphQL API to use as a backend for the app. This allows for birthdays to be listed, created, and deleted.
 
 The data on this API is reset daily.
+
+You can use the following queries and mutations:
+
+```graphql
+query {
+  person {
+    name
+    date_of_birth
+  }
+}
+```
+
+```graphql
+mutation {
+  insert_person_one(
+    object: { date_of_birth: "2020-03-31", name: "Rhodri George" }
+  ) {
+    name
+    date_of_birth
+  }
+}
+```
+
+```graphql
+mutation {
+  delete_person(
+    where: { id: { _eq: "a70c3599-40a0-4bca-a1c7-08061c899413" } }
+  ) {
+    affected_rows
+  }
+}
+```
+
+### REST
+
+https://my-json-server.typicode.com/teamchalkboard/chalkboard-coding-challenges can be used a working REST API to use as a backend for the app. This allows for birthdays to be listed, created, and deleted.
+
+All HTTP methods are supported. You can use http or https for your requests.
+
+GET /users
+GET /users/1
+POST /users
+PUT /users/1
+PATCH /users/1
+DELETE /users/1
+
+_PLEASE NOTE_: Changes are faked and aren't persisted, but request should behave as expected when requests are made.
 
 ## Time limit
 
