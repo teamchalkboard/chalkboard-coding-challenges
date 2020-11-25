@@ -46,7 +46,7 @@ query {
 }
 ```
 
-#### Add person
+#### Add person
 
 ```graphql
 mutation {
@@ -75,12 +75,12 @@ https://my-json-server.typicode.com/teamchalkboard/chalkboard-coding-challenges 
 
 All HTTP methods are supported. You can use http or https for your requests.
 
-GET /users
-GET /users/1
-POST /users
-PUT /users/1
-PATCH /users/1
-DELETE /users/1
+- GET /users
+- GET /users/1
+- POST /users
+- PUT /users/1
+- PATCH /users/1
+- DELETE /users/1
 
 _PLEASE NOTE_: Changes are faked and aren't persisted, but request should behave as expected when requests are made.
 
