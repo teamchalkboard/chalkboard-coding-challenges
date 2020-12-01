@@ -2,17 +2,14 @@
 
 The aim is to create a small app that allows you to keep track of birthdays.
 
-When you open the app, you'll be able to see whose birthdays are today, or coming up in the next 2 weeks. It will also tell you how old they are (or will be).
+When you open the app, you'll be able to see a list of peoples birthdays in order. You will also be able to view a person and it will also tell you how old they are (or will be).
 
 Important: Make sure you also view our [coding challenge guidelines](README.md).
 
 ## Main features
 
-- A single UI page that shows you today's birthdays, upcoming birthdays (next 2 weeks), and a list view of all the people whose birthdays you're keeping track of.
-- For today's birthdays and upcoming, show how old that person is (or will be).
-- The list should show the person's name and date of birth.
-- The ability to add a new birthday to the list, requiring the person's name and date of birth (add some validation).
-- It should also be possible to delete birthdays from the app.
+- A single UI page that shows a list view of all the people whose birthdays you're keeping track of.
+- A page that shows a single person's name, date of birth and current age in years.
 
 ## The technical requirements
 
@@ -26,13 +23,17 @@ Important: Make sure you also view our [coding challenge guidelines](README.md).
 
 You can choose to use either of the following APIs for this challenge.
 
+### REST
+
+https://randomuser.me/api/?results=1000&seed=chalkboard&inc=name,dob can be used a working REST API to use as a backend for the app. You must use https for your requests.
+
 ### GraphQL
 
-https://birthday-api.hasura.app/v1/graphql can be used a working GraphQL API to use as a backend for the app. This allows for birthdays to be listed, created, and deleted.
+https://birthday-api.hasura.app/v1/graphql can be used a working GraphQL API to use as a backend for the app. This allows for birthdays to be listed.
 
 The data on this API is reset daily.
 
-You can use the following queries and mutations:
+You can use the following queries:
 
 #### List
 
@@ -46,43 +47,12 @@ query {
 }
 ```
 
-#### Add person
+## Design
 
-```graphql
-mutation {
-  insert_person_one(
-    object: { date_of_birth: "1925-03-31", name: "Peter Paul" }
-  ) {
-    name
-    date_of_birth
-  }
-}
-```
+A figma design can be found here:
+https://www.figma.com/file/6ppPYkqQ0KiOPHb9hjlRTG/Birthdays?node-id=0%3A1
 
-#### Delete person
-
-```graphql
-mutation {
-  delete_person(where: { id: { _eq: "< user uuid >" } }) {
-    affected_rows
-  }
-}
-```
-
-### REST
-
-https://my-json-server.typicode.com/teamchalkboard/chalkboard-coding-challenges can be used a working REST API to use as a backend for the app. This allows for birthdays to be listed, created, and deleted.
-
-All HTTP methods are supported. You can use http or https for your requests.
-
-- GET /users
-- GET /users/1
-- POST /users
-- PUT /users/1
-- PATCH /users/1
-- DELETE /users/1
-
-_PLEASE NOTE_: Changes are faked and aren't persisted, but request should behave as expected when requests are made.
+PNGs for this design can also be found in the `designs` directory.
 
 ## Time limit
 
@@ -91,5 +61,5 @@ Please spend no more than 3 hours on this challenge.
 ## Skills tested
 
 - Client side development practices
-- Designing a simple UI
+- Implementing a simple UI design
 - Testing
