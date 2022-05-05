@@ -50,7 +50,7 @@ query {
 ## Design
 
 A figma design can be found here:
-https://www.figma.com/file/6ppPYkqQ0KiOPHb9hjlRTG/Birthdays?node-id=0%3A1
+https://www.figma.com/file/HL6gSMUiedhVQhJSUHx4Rt/Birthdays-Challenge?node-id=0%3A1
 
 PNGs for this design can also be found in the `designs` directory.
 
